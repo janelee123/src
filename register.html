@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>微医安全应急中心-首页</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <!-- 顶部导航菜单开始 -->
+    <header class="src-header">
+        <div class="top-box">
+            <div class="src-logo fl">
+                <a href="index.html">
+                    <img src="img/index/logo.png" class="logo-img">
+                    <div class="logo-text">
+                        <h1>微医安全应急响应中心</h1>
+                        <h3>WeDoctor Security Response Center</h3>
+                    </div>
+                </a>
+            </div>
+            <ul class="top-nav fl">
+                <li class="items active"><a href="index.html">首页</a></li>
+                <li class="items"><a href="bug-submit.html">提交漏洞</a></li>
+                <li class="items"><a href="news.html">新闻公告</a></li>
+                <li class="items"><a href="wy-business.html">微医业务</a></li>
+                <li class="items"><a href="about-us.html">关于我们</a></li>
+            </ul>
+            <span class="login fl"><a href="login.html">登陆/</a><a href="register.html">注册</a></span>
+            <!-- <span class="center fl"><a href="center.html">个人中心</a></span> -->
+        </div>
+    </header>
+    <!-- 顶部导航菜单结束 -->
+    <!-- 主容器开始 -->
+    <div class="index-box box">
+        <div class="content-box">
+            <span class="blink1 J_Blink1 dot"></span>
+            <span class="blink2 J_Blink2 dot"></span>
+            <span class="blink3 J_Blink3 dot"></span>
+        </div>
+        <div class="login-area">
+            <div class="login-title">
+            </div>
+            <div class="login-box reg-box">
+                <div class="login-container">
+                    <h1>注册您的账号</h1>
+                    <form >
+                        <section>
+                            <label for="regname">手机号:</label>
+                            <input type="text" placeholder="请输入常用手机号" id="regname" name="regName"/>
+                        </section>
+                        <section>
+                            <label for="regcode">密码:</label>
+                            <input type="text" placeholder="8-20位大小写英文字符、符号、数字" id="regcode" name="regCode"/>
+                        </section>
+                        <section>
+                            <label for="regcode2">确认密码:</label>
+                            <input type="text" placeholder="请再次输入密码" id="regcode2" name="regcode2"/>
+                        </section>
+                        <section>
+                            <label for="regYzcode">验证码:</label>
+                            <input type="text" name="regYzcode" id="regYzcode" class="reg-yzcode" />
+                            <span class="get-code">获取验证码</span>
+                        </section>
+                        <button class="btn-login">注&nbsp;&nbsp; 册</button>
+                    </form>
+                    <a href="login.html"><button class="btn-res">登&nbsp;&nbsp; 录</button></a>
+                    <section>
+                        <input type="checkbox" class="remember" id="remember"/><label for="remember">记住密码</label>
+                        <span class="forget-name fr">忘记密码&gt;&gt;</span>
+                    </section>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="content-info ">WYSRC作为微医集团与广大安全研究人员间交流的平台，非常欢迎各位安全专家向我们提交相关安全漏洞，形成良好的安全生态圈，为微医集团的发展保驾护航！</div>
+    </div>
+    <!-- 主容器结束 -->
+    <footer class="foot">
+        <div class="footbox">
+            <span>Copyright 2016 杭州广发科技有限公司|ICP证： 浙B2-20130007 &nbsp;&nbsp;&nbsp;</span>
+            <img src="img/index/icon-mail.png" alt="邮箱">
+            <span> 专用邮箱：sec@guahao.com</span>   
+        </div>
+
+    </footer>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/wysrc.js"></script>
+</body>
+</html>
